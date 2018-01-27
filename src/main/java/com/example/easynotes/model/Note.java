@@ -1,4 +1,4 @@
-package com.hendisantika.springbootmysqlrestapi.model;
+package com.example.easynotes.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.hibernate.validator.constraints.NotBlank;
