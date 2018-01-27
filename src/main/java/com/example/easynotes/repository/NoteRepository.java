@@ -1,6 +1,6 @@
-package com.hendisantika.springbootmysqlrestapi.repository;
+package com.example.easynotes.repository;
 
-import com.hendisantika.springbootmysqlrestapi.model.Note;
+import com.example.easynotes.model.Note;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
