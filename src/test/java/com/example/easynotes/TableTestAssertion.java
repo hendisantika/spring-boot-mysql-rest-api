@@ -24,7 +24,7 @@ public class TableTestAssertion {
              ResultSet resultSet = conn.prepareStatement("SHOW TABLES").executeQuery()) {
             if (resultSet.next()) {
                 String table = resultSet.getString(1);
-                assertThat(table).isEqualTo("tests");
+                assertThat(table).isEqualTo("notes");
             } else {
                 fail("No results for SHOW TABLES");
             }
